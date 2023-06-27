@@ -1,0 +1,14 @@
+.topNav input[type=text]{
+    font-size: 17px;
+    padding: 4px 8px 4px 36px;
+}
+
+.topNav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.topNavRight, .topNavLeft{
+    display: flex;
+    align-items: center ;
+}
