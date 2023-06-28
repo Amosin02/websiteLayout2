@@ -8,11 +8,14 @@
     justify-content: space-between;
     font-family: sans-serif;
     font-size: 14px;
+    height: 66px;
+    padding: 0px 44px;
 }
 
-.topNavRight, .topNavLeft{
+.topNavRight, .topNavLeft, .topNavCenter{
     display: flex;
     align-items: center ;
+    padding: 8px 0px;
 }
 
 .topNavRight{
@@ -22,8 +25,6 @@
 }
 
 .topNavLeft{
-    width: 262px;
-    justify-content: center;
     gap: 10px;
 }
 
@@ -42,4 +43,11 @@
 
 .topNavCenter input{
     width: 398px;
+}
+
+.menuBar{
+    width: 17px;
+    height: 2px;
+    background-color: black;
+    margin: 4px 0;
 }
