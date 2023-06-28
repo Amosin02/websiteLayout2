@@ -1,14 +1,45 @@
 .topNav input[type=text]{
     font-size: 17px;
-    padding: 4px 8px 4px 36px;
+    padding: 4px 8px 4px 8px;
 }
 
 .topNav{
     display: flex;
     justify-content: space-between;
+    font-family: sans-serif;
+    font-size: 14px;
 }
 
 .topNavRight, .topNavLeft{
     display: flex;
     align-items: center ;
+}
+
+.topNavRight{
+    width: 175.11px;
+    justify-content: space-between;
+    color: #3366CC;
+}
+
+.topNavLeft{
+    width: 262px;
+    justify-content: center;
+    gap: 10px;
+}
+
+.topNavButton{
+    border-left: none;
+    border-width: thin;
+    padding: 1px 11px;
+    width: 70px;
+    height: 32px;
+    background: #F8F9FA;
+    float: right;
+    cursor: pointer;
+    font-weight: bold;
+    border-radius: 0px;
+}
+
+.topNavCenter input{
+    width: 398px;
 }
